@@ -1,0 +1,58 @@
+* , a{
+  margin: 0px;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+  height: 100vh;
+  width: 100vh;
+   /* background-color: rgb(26, 40, 89); */
+   /* background: radial-gradient(#1f3463, #1a1346); */
+   background: radial-gradient(circle at center, #284370 20%, #1f3463 40%, #1a1d50 60%, #1a1346 75%);
+   font-family: 'Poppins' ,'Roboto','Helvetica Neue Light','Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;
+}
+
+.login-area{
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% , -50%);
+  padding: 40px 30px 40px 30px;
+  border-radius:15px;
+  width: 400px;
+}
+.login-area h1{
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.login-area input{
+  margin-bottom: 16px;
+  width: calc(100% - 30px);
+  padding: 15px;
+  font-size: 15px;
+  border: 1px solid #f05131;
+  border-radius: 5px;
+  outline: none;
+}
+
+.login-area .submit{
+  background-color: #f05131;
+  color: #fff;
+  margin-top: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  float:right;
+}
+.login-area .submit a{
+  color: #fff;
+  text-decoration: none;
+}
+.login-area button:hover{
+ background-color: #f05f40;
+}
