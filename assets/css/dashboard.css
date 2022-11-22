@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  border: 0;
+  font-family: 'Poppins', 'Roboto', 'Helvetica Neue Light', 'Helvetica Neue',
+    Helvetica, Arial, 'Lucida Grande', sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e7ebec;
+}
+.menu-lateral {
+  height: 100vh;
+  display: flex;
+}
+nav {
+  /* position: relative; */
+  width: 150px;
+  background: #fff;
+  box-shadow: 10px 0 0 #f05f40;
+}
