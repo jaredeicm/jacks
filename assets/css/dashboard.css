@@ -11,12 +11,72 @@ body {
   background-color: #e7ebec;
 }
 .menu-lateral {
-  height: 100vh;
+  font-size: 24px;
+  height: 100%;
   display: flex;
-}
-nav {
-  /* position: relative; */
-  width: 150px;
+  position: fixed;
   background: #fff;
   box-shadow: 10px 0 0 #f05f40;
+  flex-direction: column;
+  /* width: 60px; */
+  overflow-block: hidden;
+  transition: 0.5s;
+}
+
+.logo-plataform {
+  justify-content: center;
+  align-items: center;
+  max-width: 150px;
+  width: auto;
+  height: auto;
+  padding: 24px 5px 30px 20px;
+}
+
+.btn-menu {
+  color: #888888;
+  display: flex;
+  font-weight: 700;
+  align-items: center;
+  justify-content: left;
+  justify-items: center;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.img-menu {
+  color: #f05f40;
+  height: 30px;
+  padding-right: 10px;
+}
+
+nav ul li {
+  list-style: none;
+  display: flex;
+  padding: 5px 20px 5px 20px;
+  vertical-align: middle;
+  /* justify-items: center; */
+  /* text-align: center; */
+}
+nav ul li:hover {
+  background-color: #f05f40;
+}
+
+nav ul li a {
+  /* display: flex; */
+  text-transform: none;
+  color: #000;
+  font-size: 15px;
+  align-items: center;
+  justify-content: left;
+  /* justify-items: center; */
+}
+.nav-bar-icon {
+  /* padding: 10px 5px 10px 0px; */
+  font-size: 18px;
+  padding-right: 10px;
+  align-items: center;
+}
+
+.oculto {
+  display: none;
 }
